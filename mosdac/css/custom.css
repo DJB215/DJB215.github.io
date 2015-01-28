@@ -103,13 +103,12 @@ footer #mce-EMAIL {
 
 #pastor {
 	position: relative;
-	top: 25px;
+	top: 0px;
 	left: 50%;
 	width: 45%;
 	height: 300px;
 	background-color: #FFF;
 	opacity: 0.8;
-	overflow: hidden;
 }
 
 #church_beliefs h2, #pastor h2, #vision h2 {
@@ -142,7 +141,6 @@ footer #mce-EMAIL {
 }
 
 #vision {
-	position: relative;
 	top: 25px;
 	width: 85%;
 	height: 250px;
