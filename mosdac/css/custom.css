@@ -1,0 +1,202 @@
+/* CSS Document */
+
+ul.nav {
+	font-size: 16px;
+	font-family: 'Oswald', serif;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+footer {
+	background-color: #222;
+	color: #FFFFFF;
+	position: relative;
+}
+
+footer a {
+	color: #9d9d9d;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+
+footer .row p {
+	margin-top: 25px;
+}
+
+footer .row p a {
+	font-family: 'Oswald', serif;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+footer h4 {
+	font-family: 'Oswald', serif;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.social {
+	width: 30px;
+	margin-right: 15px;
+}
+
+#social_media {
+	float: right;
+}
+
+#social_media i {
+	width: 30px;
+	margin-left: 5px;
+}
+
+.fa {
+	margin-bottom: 15px;
+}
+
+footer .mc-field-group {
+	margin-top: 20px;
+}
+
+footer #mce-EMAIL {
+	margin-left: 8px;
+	margin-right: 8px;
+	width: 239px;
+}
+
+#mosdac_logo {
+	float: left;
+	margin-top: 20px;
+}
+
+.subscribe {
+	font-family: 'Oswald', serif;
+	font-weight: 300;
+	float: right;
+}
+
+.copyright {
+	font-size: 12px;
+	font-family: 'Oswald', serif;
+	font-weight: 300;
+}
+
+#church {
+	background-color: green;
+}
+
+#beliefs {
+	background-color: #9E9A9A;
+}
+
+#church_beliefs {
+	top: 25px;
+	left: 0px;
+	width: 45%;
+	height: 300px;
+	background-color: #FFF;
+	opacity: 0.8;
+}
+
+#pastor {
+	position: relative;
+	top: 25px;
+	left: 50%;
+	width: 45%;
+	height: 300px;
+	background-color: #FFF;
+	opacity: 0.8;
+	overflow: hidden;
+}
+
+#church_beliefs h2, #pastor h2, #vision h2 {
+	margin-left: 15px;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	font-family: 'Oswald', serif;
+}
+
+#church_beliefs p, #vision p {
+	margin-left: 15px;
+	font-size: 18px;
+	margin-right: 15px;
+	font-family: 'Droid Sans', serif;
+}
+
+#pastor p {
+	margin-left: 15px;
+	font-size: 12px;
+	margin-right: 15px;
+	font-family: 'Droid Sans', serif;
+}
+
+#pastormatlock {
+	background-color: #B47F80;
+}
+
+#mission {
+	background-color: #517746;
+}
+
+#vision {
+	position: relative;
+	top: 25px;
+	width: 85%;
+	height: 250px;
+	background-color: #FFF;
+	opacity: 0.8;
+}
+
+
+@media (max-width: 1199px) { 
+	footer #mce-EMAIL {
+		width: 139px;
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 991px) { 
+	ul.nav {
+		font-size: 12px;
+	}
+	
+	footer #mosdac_logo {
+		display: none;
+	}
+	
+	.subscribers .col-sm-6 {
+		width: 100%;
+	}
+	
+	.subscribe {
+		float: left;
+		font-size: 17px;
+		width: 100%;
+	}
+	
+	footer #mce-EMAIL {
+		width: 40%;
+	}
+}
+
+@media (max-width: 767px) { 
+	footer h4 {
+		margin-top: 20px;
+	}
+	
+	footer .row {
+		text-align: center;
+	}
+	
+	#social_media {
+		text-align: center;
+		margin-top: 15px;
+		float: none;
+	}
+}
+
+
+	
